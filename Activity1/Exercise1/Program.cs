@@ -7,13 +7,14 @@ internal class Exercise1
         Console.Write("Enter your name: ");
         string? name = Console.ReadLine();
         Console.Write("Enter your first grade: ");
-        double grade1 = Convert.ToDouble(Console.ReadLine());
+        int grade1 = Convert.ToInt32(Console.ReadLine());
         Console.Write("Enter your second grade: ");
-        double grade2 = Convert.ToDouble(Console.ReadLine());
+        int grade2 = Convert.ToInt32(Console.ReadLine());
         Console.Write("Enter your third grade: ");
-        double grade3 = Convert.ToDouble(Console.ReadLine());
+        int grade3 = Convert.ToInt32(Console.ReadLine());
 
-        double mean = Math.Round((grade1 + grade2 + grade3) / 3, 2);
+        float result = (grade1 + grade2 + grade3) / 3f;
+        double mean = Math.Round(result, 2);
         Console.WriteLine("[{0}] Final grade: {1}", name, mean);
     }
 }
