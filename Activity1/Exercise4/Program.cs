@@ -16,10 +16,9 @@ namespace Exercise4
             {
                 if (i % 2 != 0) continue;
                 
-                long result = even * i;
-                Console.WriteLine("[Even {0}] {1} * {0} = {2}", i, even, result);
-                even = result;
+                even *= i;
             }
+            Console.WriteLine($"[Even numbers multiplication] {even}");
             return even;
         }
         
@@ -29,11 +28,11 @@ namespace Exercise4
             for (int i = 1; i <= 30; i++)
             {
                 if (i % 2 == 0) continue;
-                
-                int result = odd + i;
-                Console.WriteLine("[Odd {0}] {1} + {0} = {2}", i, odd, result);
-                odd = result;
+
+                odd += i;
             }
+
+            Console.WriteLine($"[Odd numbers addition] {odd}");
             return odd;
         }
     }
