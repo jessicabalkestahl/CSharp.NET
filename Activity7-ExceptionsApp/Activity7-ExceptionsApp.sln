@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionProj1", "ExceptionProj1\ExceptionProj1.csproj", "{0A6BB6A4-83F1-4039-A71E-0EE46ADEA36F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThrowException", "ThrowException\ThrowException.csproj", "{77DF1CF0-FEB0-4264-B503-2AB9FDA30D79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A6BB6A4-83F1-4039-A71E-0EE46ADEA36F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A6BB6A4-83F1-4039-A71E-0EE46ADEA36F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A6BB6A4-83F1-4039-A71E-0EE46ADEA36F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A6BB6A4-83F1-4039-A71E-0EE46ADEA36F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77DF1CF0-FEB0-4264-B503-2AB9FDA30D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DF1CF0-FEB0-4264-B503-2AB9FDA30D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DF1CF0-FEB0-4264-B503-2AB9FDA30D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DF1CF0-FEB0-4264-B503-2AB9FDA30D79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
